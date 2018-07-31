@@ -13,8 +13,8 @@ class Category extends Component {
     return (
       <div className="App">
         <Header />
-        <BookDetails />  
-        <RecommendedBooks title={"Recommended Book For You"} />
+        <BookDetails />
+        
         <WhyUs />
         <hr/>
         <Footer />

@@ -3,6 +3,8 @@ import Book from '../Books/Book';
 
 class RecommendedBooks extends Component {
   render() {
+    var books = '';
+
     return (
       <section>
         <div className="">
@@ -10,12 +12,9 @@ class RecommendedBooks extends Component {
             <div className="panel-body">
               <h3>{ this.props.title }</h3>
               <div className="row">
-                <Book />
-                <Book />
-                <Book />
-                <Book />
-                <Book />
-                <Book />
+                  {this.props.books.map((book, i) => {
+                      return <div  key={i}><Book book={book} /></div>
+                  })}
               </div>
             </div>
           </div>

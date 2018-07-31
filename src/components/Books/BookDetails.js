@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 
 class BookDetails extends Component {
+
+  componentDidMount() {
+    // const { id } = this.props.match.params
+    // console.log(id);
+    console.log(this.props);
+  }
+
   render() {
     return (
       <section>

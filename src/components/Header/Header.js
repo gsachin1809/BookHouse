@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 class Header extends Component {
 
   render() {
-    console.log(this.props);
-
     return (
       <div>
         <style>
