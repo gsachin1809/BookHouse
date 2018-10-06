@@ -61,7 +61,6 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
         <Banner />
         <RecommendedBooks title={"Recommended Book For You"} books={this.state.recommended_books} />
         <RecommendedBooks title={"Mostly Search Books"} books={this.state.mostly_search_books} />

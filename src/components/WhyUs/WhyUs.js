@@ -4,6 +4,7 @@ class WhyUs extends Component {
   render() {
     return (
       <section>
+        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div className="why-us row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <span className="heading"> Why Us </span>
@@ -41,6 +42,7 @@ class WhyUs extends Component {
                 </div>
               </div>
             </div>
+          </div>
 
           </section>
     );

@@ -18,7 +18,7 @@ class Header extends Component {
                       <span className="icon-bar"></span>
                       <span className="icon-bar"></span>
                     </button>
-                    <Link to="/home">
+                    <Link to="/">
                         <span className="navbar-brand">Book House</span>
                      </Link>
                   </div>

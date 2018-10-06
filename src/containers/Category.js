@@ -46,7 +46,6 @@ class Category extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
         <div className="col-lg-2 col-md-2 col-sm-5 col-xs-12">
           <Filter />
         </div>
